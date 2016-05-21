@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		377BDC411CF0AC230087FC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC401CF0AC230087FC1F /* main.m */; };
+		377BDC441CF0AC230087FC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC431CF0AC230087FC1F /* AppDelegate.m */; };
+		377BDC471CF0AC230087FC1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC461CF0AC230087FC1F /* ViewController.m */; };
+		377BDC4A1CF0AC230087FC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC481CF0AC230087FC1F /* Main.storyboard */; };
+		377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC4B1CF0AC230087FC1F /* Assets.xcassets */; };
+		377BDC4F1CF0AC230087FC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */; };
+		377BDC5A1CF0AC230087FC1F /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC591CF0AC230087FC1F /* WonderlandTests.m */; };
+		377BDC651CF0AC230087FC1F /* WonderlandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC641CF0AC230087FC1F /* WonderlandUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377BDC561CF0AC230087FC1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377BDC341CF0AC230087FC1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377BDC3B1CF0AC230087FC1F;
+			remoteInfo = Wonderland;
+		};
+		377BDC611CF0AC230087FC1F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377BDC341CF0AC230087FC1F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377BDC3B1CF0AC230087FC1F;
+			remoteInfo = Wonderland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377BDC3C1CF0AC230087FC1F /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377BDC401CF0AC230087FC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		377BDC421CF0AC230087FC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		377BDC431CF0AC230087FC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		377BDC451CF0AC230087FC1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		377BDC461CF0AC230087FC1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		377BDC491CF0AC230087FC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377BDC4B1CF0AC230087FC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377BDC4E1CF0AC230087FC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377BDC501CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377BDC551CF0AC230087FC1F /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377BDC591CF0AC230087FC1F /* WonderlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandTests.m; sourceTree = "<group>"; };
+		377BDC5B1CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377BDC601CF0AC230087FC1F /* WonderlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377BDC641CF0AC230087FC1F /* WonderlandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandUITests.m; sourceTree = "<group>"; };
+		377BDC661CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377BDC391CF0AC230087FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC521CF0AC230087FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC5D1CF0AC230087FC1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		377BDC331CF0AC230087FC1F = {
+			isa = PBXGroup;
+			children = (
+				377BDC3E1CF0AC230087FC1F /* Wonderland */,
+				377BDC581CF0AC230087FC1F /* WonderlandTests */,
+				377BDC631CF0AC230087FC1F /* WonderlandUITests */,
+				377BDC3D1CF0AC230087FC1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		377BDC3D1CF0AC230087FC1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377BDC3C1CF0AC230087FC1F /* Wonderland.app */,
+				377BDC551CF0AC230087FC1F /* WonderlandTests.xctest */,
+				377BDC601CF0AC230087FC1F /* WonderlandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377BDC3E1CF0AC230087FC1F /* Wonderland */ = {
+			isa = PBXGroup;
+			children = (
+				377BDC421CF0AC230087FC1F /* AppDelegate.h */,
+				377BDC431CF0AC230087FC1F /* AppDelegate.m */,
+				377BDC451CF0AC230087FC1F /* ViewController.h */,
+				377BDC461CF0AC230087FC1F /* ViewController.m */,
+				377BDC481CF0AC230087FC1F /* Main.storyboard */,
+				377BDC4B1CF0AC230087FC1F /* Assets.xcassets */,
+				377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */,
+				377BDC501CF0AC230087FC1F /* Info.plist */,
+				377BDC3F1CF0AC230087FC1F /* Supporting Files */,
+			);
+			path = Wonderland;
+			sourceTree = "<group>";
+		};
+		377BDC3F1CF0AC230087FC1F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				377BDC401CF0AC230087FC1F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		377BDC581CF0AC230087FC1F /* WonderlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				377BDC591CF0AC230087FC1F /* WonderlandTests.m */,
+				377BDC5B1CF0AC230087FC1F /* Info.plist */,
+			);
+			path = WonderlandTests;
+			sourceTree = "<group>";
+		};
+		377BDC631CF0AC230087FC1F /* WonderlandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				377BDC641CF0AC230087FC1F /* WonderlandUITests.m */,
+				377BDC661CF0AC230087FC1F /* Info.plist */,
+			);
+			path = WonderlandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377BDC3B1CF0AC230087FC1F /* Wonderland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377BDC691CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "Wonderland" */;
+			buildPhases = (
+				377BDC381CF0AC230087FC1F /* Sources */,
+				377BDC391CF0AC230087FC1F /* Frameworks */,
+				377BDC3A1CF0AC230087FC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wonderland;
+			productName = Wonderland;
+			productReference = 377BDC3C1CF0AC230087FC1F /* Wonderland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377BDC541CF0AC230087FC1F /* WonderlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377BDC6C1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandTests" */;
+			buildPhases = (
+				377BDC511CF0AC230087FC1F /* Sources */,
+				377BDC521CF0AC230087FC1F /* Frameworks */,
+				377BDC531CF0AC230087FC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377BDC571CF0AC230087FC1F /* PBXTargetDependency */,
+			);
+			name = WonderlandTests;
+			productName = WonderlandTests;
+			productReference = 377BDC551CF0AC230087FC1F /* WonderlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377BDC5F1CF0AC230087FC1F /* WonderlandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377BDC6F1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandUITests" */;
+			buildPhases = (
+				377BDC5C1CF0AC230087FC1F /* Sources */,
+				377BDC5D1CF0AC230087FC1F /* Frameworks */,
+				377BDC5E1CF0AC230087FC1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377BDC621CF0AC230087FC1F /* PBXTargetDependency */,
+			);
+			name = WonderlandUITests;
+			productName = WonderlandUITests;
+			productReference = 377BDC601CF0AC230087FC1F /* WonderlandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377BDC341CF0AC230087FC1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = ZhangCheng;
+				TargetAttributes = {
+					377BDC3B1CF0AC230087FC1F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					377BDC541CF0AC230087FC1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 377BDC3B1CF0AC230087FC1F;
+					};
+					377BDC5F1CF0AC230087FC1F = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 377BDC3B1CF0AC230087FC1F;
+					};
+				};
+			};
+			buildConfigurationList = 377BDC371CF0AC230087FC1F /* Build configuration list for PBXProject "Wonderland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377BDC331CF0AC230087FC1F;
+			productRefGroup = 377BDC3D1CF0AC230087FC1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377BDC3B1CF0AC230087FC1F /* Wonderland */,
+				377BDC541CF0AC230087FC1F /* WonderlandTests */,
+				377BDC5F1CF0AC230087FC1F /* WonderlandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377BDC3A1CF0AC230087FC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377BDC4F1CF0AC230087FC1F /* LaunchScreen.storyboard in Resources */,
+				377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */,
+				377BDC4A1CF0AC230087FC1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC531CF0AC230087FC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC5E1CF0AC230087FC1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377BDC381CF0AC230087FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377BDC471CF0AC230087FC1F /* ViewController.m in Sources */,
+				377BDC441CF0AC230087FC1F /* AppDelegate.m in Sources */,
+				377BDC411CF0AC230087FC1F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC511CF0AC230087FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377BDC5A1CF0AC230087FC1F /* WonderlandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377BDC5C1CF0AC230087FC1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377BDC651CF0AC230087FC1F /* WonderlandUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377BDC571CF0AC230087FC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377BDC3B1CF0AC230087FC1F /* Wonderland */;
+			targetProxy = 377BDC561CF0AC230087FC1F /* PBXContainerItemProxy */;
+		};
+		377BDC621CF0AC230087FC1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377BDC3B1CF0AC230087FC1F /* Wonderland */;
+			targetProxy = 377BDC611CF0AC230087FC1F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377BDC481CF0AC230087FC1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377BDC491CF0AC230087FC1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377BDC4E1CF0AC230087FC1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377BDC671CF0AC230087FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		377BDC681CF0AC230087FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377BDC6A1CF0AC230087FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		377BDC6B1CF0AC230087FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wonderland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		377BDC6D1CF0AC230087FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.WonderlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Debug;
+		};
+		377BDC6E1CF0AC230087FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WonderlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.WonderlandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wonderland.app/Wonderland";
+			};
+			name = Release;
+		};
+		377BDC701CF0AC230087FC1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WonderlandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.WonderlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wonderland;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		377BDC711CF0AC230087FC1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WonderlandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.WonderlandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Wonderland;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377BDC371CF0AC230087FC1F /* Build configuration list for PBXProject "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377BDC671CF0AC230087FC1F /* Debug */,
+				377BDC681CF0AC230087FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377BDC691CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "Wonderland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377BDC6A1CF0AC230087FC1F /* Debug */,
+				377BDC6B1CF0AC230087FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		377BDC6C1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377BDC6D1CF0AC230087FC1F /* Debug */,
+				377BDC6E1CF0AC230087FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		377BDC6F1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377BDC701CF0AC230087FC1F /* Debug */,
+				377BDC711CF0AC230087FC1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 377BDC341CF0AC230087FC1F /* Project object */;
+}
