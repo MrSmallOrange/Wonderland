@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		377BDC411CF0AC230087FC1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC401CF0AC230087FC1F /* main.m */; };
-		377BDC441CF0AC230087FC1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC431CF0AC230087FC1F /* AppDelegate.m */; };
-		377BDC471CF0AC230087FC1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC461CF0AC230087FC1F /* ViewController.m */; };
-		377BDC4A1CF0AC230087FC1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC481CF0AC230087FC1F /* Main.storyboard */; };
+		3702C2D91CF3540A00D701E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2D71CF3540A00D701E4 /* AppDelegate.m */; };
+		3702C2DA1CF3540A00D701E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2D81CF3540A00D701E4 /* main.m */; };
+		3702C2DD1CF3546900D701E4 /* ZCTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2DC1CF3546900D701E4 /* ZCTabBarController.m */; };
+		3702C2E01CF3549C00D701E4 /* ZCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2DF1CF3549C00D701E4 /* ZCNavigationController.m */; };
+		3702C2E31CF3563C00D701E4 /* ZCDiscoverController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2E21CF3563C00D701E4 /* ZCDiscoverController.m */; };
+		3702C2E61CF3564E00D701E4 /* ZCForumController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2E51CF3564E00D701E4 /* ZCForumController.m */; };
+		3702C2E91CF3565A00D701E4 /* ZCHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2E81CF3565A00D701E4 /* ZCHomeController.m */; };
+		3702C2EC1CF3566C00D701E4 /* ZCMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2EB1CF3566C00D701E4 /* ZCMineController.m */; };
+		3702C2EF1CF3567E00D701E4 /* ZCNoticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2EE1CF3567E00D701E4 /* ZCNoticeController.m */; };
 		377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC4B1CF0AC230087FC1F /* Assets.xcassets */; };
-		377BDC4F1CF0AC230087FC1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */; };
 		377BDC5A1CF0AC230087FC1F /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC591CF0AC230087FC1F /* WonderlandTests.m */; };
 		377BDC651CF0AC230087FC1F /* WonderlandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC641CF0AC230087FC1F /* WonderlandUITests.m */; };
 /* End PBXBuildFile section */
@@ -35,15 +39,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3702C2D61CF3540A00D701E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3702C2D71CF3540A00D701E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3702C2D81CF3540A00D701E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3702C2DB1CF3546900D701E4 /* ZCTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCTabBarController.h; sourceTree = "<group>"; };
+		3702C2DC1CF3546900D701E4 /* ZCTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCTabBarController.m; sourceTree = "<group>"; };
+		3702C2DE1CF3549C00D701E4 /* ZCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNavigationController.h; sourceTree = "<group>"; };
+		3702C2DF1CF3549C00D701E4 /* ZCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNavigationController.m; sourceTree = "<group>"; };
+		3702C2E11CF3563C00D701E4 /* ZCDiscoverController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCDiscoverController.h; sourceTree = "<group>"; };
+		3702C2E21CF3563C00D701E4 /* ZCDiscoverController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCDiscoverController.m; sourceTree = "<group>"; };
+		3702C2E41CF3564E00D701E4 /* ZCForumController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCForumController.h; sourceTree = "<group>"; };
+		3702C2E51CF3564E00D701E4 /* ZCForumController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCForumController.m; sourceTree = "<group>"; };
+		3702C2E71CF3565A00D701E4 /* ZCHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeController.h; sourceTree = "<group>"; };
+		3702C2E81CF3565A00D701E4 /* ZCHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeController.m; sourceTree = "<group>"; };
+		3702C2EA1CF3566C00D701E4 /* ZCMineController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMineController.h; sourceTree = "<group>"; };
+		3702C2EB1CF3566C00D701E4 /* ZCMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMineController.m; sourceTree = "<group>"; };
+		3702C2ED1CF3567E00D701E4 /* ZCNoticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNoticeController.h; sourceTree = "<group>"; };
+		3702C2EE1CF3567E00D701E4 /* ZCNoticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNoticeController.m; sourceTree = "<group>"; };
 		377BDC3C1CF0AC230087FC1F /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		377BDC401CF0AC230087FC1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		377BDC421CF0AC230087FC1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		377BDC431CF0AC230087FC1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		377BDC451CF0AC230087FC1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		377BDC461CF0AC230087FC1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		377BDC491CF0AC230087FC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		377BDC4B1CF0AC230087FC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		377BDC4E1CF0AC230087FC1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		377BDC501CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		377BDC551CF0AC230087FC1F /* WonderlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377BDC591CF0AC230087FC1F /* WonderlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandTests.m; sourceTree = "<group>"; };
@@ -78,6 +92,230 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3702C2BC1CF3540A00D701E4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2BD1CF3540A00D701E4 /* Discover */,
+				3702C2C11CF3540A00D701E4 /* Forum */,
+				3702C2C51CF3540A00D701E4 /* Home */,
+				3702C2C91CF3540A00D701E4 /* Main */,
+				3702C2CD1CF3540A00D701E4 /* Mine */,
+				3702C2D11CF3540A00D701E4 /* Notice */,
+				3702C2D51CF3540A00D701E4 /* Other */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		3702C2BD1CF3540A00D701E4 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2BE1CF3540A00D701E4 /* Controller */,
+				3702C2BF1CF3540A00D701E4 /* Model */,
+				3702C2C01CF3540A00D701E4 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		3702C2BE1CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2E11CF3563C00D701E4 /* ZCDiscoverController.h */,
+				3702C2E21CF3563C00D701E4 /* ZCDiscoverController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2BF1CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2C01CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2C11CF3540A00D701E4 /* Forum */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2C21CF3540A00D701E4 /* Controller */,
+				3702C2C31CF3540A00D701E4 /* Model */,
+				3702C2C41CF3540A00D701E4 /* View */,
+			);
+			path = Forum;
+			sourceTree = "<group>";
+		};
+		3702C2C21CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2E41CF3564E00D701E4 /* ZCForumController.h */,
+				3702C2E51CF3564E00D701E4 /* ZCForumController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2C31CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2C41CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2C51CF3540A00D701E4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2C61CF3540A00D701E4 /* Controller */,
+				3702C2C71CF3540A00D701E4 /* Model */,
+				3702C2C81CF3540A00D701E4 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3702C2C61CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2E71CF3565A00D701E4 /* ZCHomeController.h */,
+				3702C2E81CF3565A00D701E4 /* ZCHomeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2C71CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2C81CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2C91CF3540A00D701E4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2CA1CF3540A00D701E4 /* Controller */,
+				3702C2CB1CF3540A00D701E4 /* Model */,
+				3702C2CC1CF3540A00D701E4 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3702C2CA1CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2DB1CF3546900D701E4 /* ZCTabBarController.h */,
+				3702C2DC1CF3546900D701E4 /* ZCTabBarController.m */,
+				3702C2DE1CF3549C00D701E4 /* ZCNavigationController.h */,
+				3702C2DF1CF3549C00D701E4 /* ZCNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2CB1CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2CC1CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2CD1CF3540A00D701E4 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2CE1CF3540A00D701E4 /* Controller */,
+				3702C2CF1CF3540A00D701E4 /* Model */,
+				3702C2D01CF3540A00D701E4 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		3702C2CE1CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2EA1CF3566C00D701E4 /* ZCMineController.h */,
+				3702C2EB1CF3566C00D701E4 /* ZCMineController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2CF1CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2D01CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2D11CF3540A00D701E4 /* Notice */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2D21CF3540A00D701E4 /* Controller */,
+				3702C2D31CF3540A00D701E4 /* Model */,
+				3702C2D41CF3540A00D701E4 /* View */,
+			);
+			path = Notice;
+			sourceTree = "<group>";
+		};
+		3702C2D21CF3540A00D701E4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2ED1CF3567E00D701E4 /* ZCNoticeController.h */,
+				3702C2EE1CF3567E00D701E4 /* ZCNoticeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3702C2D31CF3540A00D701E4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3702C2D41CF3540A00D701E4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3702C2D51CF3540A00D701E4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3702C2D61CF3540A00D701E4 /* AppDelegate.h */,
+				3702C2D71CF3540A00D701E4 /* AppDelegate.m */,
+				3702C2D81CF3540A00D701E4 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 		377BDC331CF0AC230087FC1F = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +339,7 @@
 		377BDC3E1CF0AC230087FC1F /* Wonderland */ = {
 			isa = PBXGroup;
 			children = (
-				377BDC421CF0AC230087FC1F /* AppDelegate.h */,
-				377BDC431CF0AC230087FC1F /* AppDelegate.m */,
-				377BDC451CF0AC230087FC1F /* ViewController.h */,
-				377BDC461CF0AC230087FC1F /* ViewController.m */,
-				377BDC481CF0AC230087FC1F /* Main.storyboard */,
-				377BDC4B1CF0AC230087FC1F /* Assets.xcassets */,
-				377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */,
-				377BDC501CF0AC230087FC1F /* Info.plist */,
+				3702C2BC1CF3540A00D701E4 /* Class */,
 				377BDC3F1CF0AC230087FC1F /* Supporting Files */,
 			);
 			path = Wonderland;
@@ -117,7 +348,8 @@
 		377BDC3F1CF0AC230087FC1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				377BDC401CF0AC230087FC1F /* main.m */,
+				377BDC4B1CF0AC230087FC1F /* Assets.xcassets */,
+				377BDC501CF0AC230087FC1F /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +434,7 @@
 		377BDC341CF0AC230087FC1F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ZC;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ZhangCheng;
 				TargetAttributes = {
@@ -243,9 +476,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377BDC4F1CF0AC230087FC1F /* LaunchScreen.storyboard in Resources */,
 				377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */,
-				377BDC4A1CF0AC230087FC1F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +501,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				377BDC471CF0AC230087FC1F /* ViewController.m in Sources */,
-				377BDC441CF0AC230087FC1F /* AppDelegate.m in Sources */,
-				377BDC411CF0AC230087FC1F /* main.m in Sources */,
+				3702C2E31CF3563C00D701E4 /* ZCDiscoverController.m in Sources */,
+				3702C2E91CF3565A00D701E4 /* ZCHomeController.m in Sources */,
+				3702C2E01CF3549C00D701E4 /* ZCNavigationController.m in Sources */,
+				3702C2E61CF3564E00D701E4 /* ZCForumController.m in Sources */,
+				3702C2DA1CF3540A00D701E4 /* main.m in Sources */,
+				3702C2DD1CF3546900D701E4 /* ZCTabBarController.m in Sources */,
+				3702C2D91CF3540A00D701E4 /* AppDelegate.m in Sources */,
+				3702C2EF1CF3567E00D701E4 /* ZCNoticeController.m in Sources */,
+				3702C2EC1CF3566C00D701E4 /* ZCMineController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +543,6 @@
 			targetProxy = 377BDC611CF0AC230087FC1F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		377BDC481CF0AC230087FC1F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377BDC491CF0AC230087FC1F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		377BDC4D1CF0AC230087FC1F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				377BDC4E1CF0AC230087FC1F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		377BDC671CF0AC230087FC1F /* Debug */ = {
@@ -411,6 +629,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Wonderland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
@@ -422,6 +641,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = Wonderland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
@@ -496,6 +716,7 @@
 				377BDC6B1CF0AC230087FC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377BDC6C1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +725,7 @@
 				377BDC6E1CF0AC230087FC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		377BDC6F1CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "WonderlandUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +734,7 @@
 				377BDC711CF0AC230087FC1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

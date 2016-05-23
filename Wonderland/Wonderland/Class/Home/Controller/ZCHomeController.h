@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  ZCHomeController.h
 //  Wonderland
 //
-//  Created by ZhangCheng on 16/5/21.
+//  Created by ZhangCheng on 16/5/23.
 //  Copyright © 2016年 ZhangCheng. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ZCHomeController : UITableViewController
 
 @end
-
