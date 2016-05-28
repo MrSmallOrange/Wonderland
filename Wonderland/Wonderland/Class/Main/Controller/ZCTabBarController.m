@@ -42,7 +42,7 @@
     [self setupOneChildViewController:forum imageName:@"22" selectedImageName:@"2" title:@"论坛"];
     
     ZCDiscoverController *discover = [[ZCDiscoverController alloc] init];
-    [self setupOneChildViewController:discover imageName:@"discover_logo" selectedImageName:@"discover_logo" title:@"发现"];
+    [self setupOneChildViewController:discover imageName:@"tab_discover_normal" selectedImageName:@"tab_discover_select" title:@"发现"];
     
     ZCNoticeController *notice = [[ZCNoticeController alloc] init];
     [self setupOneChildViewController:notice imageName:@"33" selectedImageName:@"3" title:@"通知"];
@@ -56,8 +56,8 @@
 - (void)setupOneChildViewController:(UIViewController *)childViewController imageName:(NSString *)imageName selectedImageName:(NSString *)selectedImageName title:(NSString *)title
 {
     childViewController.title = title;
-    childViewController.tabBarItem.image = [UIImage imageNamed:imageName];
-    childViewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImageName];
+    childViewController.tabBarItem.image = [[UIImage imageNamed:imageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    childViewController.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImageName] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     
     ZCNavigationController *navigationController = [[ZCNavigationController alloc] initWithRootViewController:childViewController];
     

@@ -16,9 +16,32 @@
 		3702C2E91CF3565A00D701E4 /* ZCHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2E81CF3565A00D701E4 /* ZCHomeController.m */; };
 		3702C2EC1CF3566C00D701E4 /* ZCMineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2EB1CF3566C00D701E4 /* ZCMineController.m */; };
 		3702C2EF1CF3567E00D701E4 /* ZCNoticeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702C2EE1CF3567E00D701E4 /* ZCNoticeController.m */; };
+		3765A1181CF5D53D00B77126 /* ZCHomeGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3765A1171CF5D53D00B77126 /* ZCHomeGame.m */; };
 		377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377BDC4B1CF0AC230087FC1F /* Assets.xcassets */; };
 		377BDC5A1CF0AC230087FC1F /* WonderlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC591CF0AC230087FC1F /* WonderlandTests.m */; };
 		377BDC651CF0AC230087FC1F /* WonderlandUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 377BDC641CF0AC230087FC1F /* WonderlandUITests.m */; };
+		377C96BF1CF56C6000F617E0 /* ZCHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C96BD1CF56C6000F617E0 /* ZCHomeCell.m */; };
+		377C96C01CF56C6000F617E0 /* ZCHomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C96BE1CF56C6000F617E0 /* ZCHomeCell.xib */; };
+		377C96C61CF57D9F00F617E0 /* ZCHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C96C51CF57D9F00F617E0 /* ZCHomeHeaderView.m */; };
+		377C96C81CF57DB100F617E0 /* ZCHomeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 377C96C71CF57DB100F617E0 /* ZCHomeHeaderView.xib */; };
+		377C96CB1CF5885600F617E0 /* ZCHomeContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 377C96CA1CF5885600F617E0 /* ZCHomeContent.m */; };
+		377C96CD1CF58A6A00F617E0 /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 377C96CC1CF58A6A00F617E0 /* PropertyList.plist */; };
+		37E0C99F1CF978D9009C3F61 /* ZCGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0C99E1CF978D9009C3F61 /* ZCGameView.m */; };
+		37E0C9A11CF97901009C3F61 /* ZCGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E0C9A01CF97901009C3F61 /* ZCGameView.xib */; };
+		37E0C9AF1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */; };
+		37E0C9B21CF9A4A3009C3F61 /* UIView+ZCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0C9B11CF9A4A3009C3F61 /* UIView+ZCExtension.m */; };
+		37F73DE01CF9AF4100774621 /* ZCLoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DDE1CF9AF4100774621 /* ZCLoadGameController.m */; };
+		37F73DE11CF9AF4100774621 /* ZCLoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DDF1CF9AF4100774621 /* ZCLoadGameController.xib */; };
+		37F73DE41CF9B2D000774621 /* ZCStartGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DE31CF9B2D000774621 /* ZCStartGameController.m */; };
+		37F73DE81CF9C22F00774621 /* ZCGameEntranceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DE61CF9C22F00774621 /* ZCGameEntranceController.m */; };
+		37F73DE91CF9C22F00774621 /* ZCGameEntranceController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DE71CF9C22F00774621 /* ZCGameEntranceController.xib */; };
+		37F73DED1CF9C29600774621 /* ZCGameDescriptionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DEB1CF9C29600774621 /* ZCGameDescriptionController.m */; };
+		37F73DEE1CF9C29600774621 /* ZCGameDescriptionController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DEC1CF9C29600774621 /* ZCGameDescriptionController.xib */; };
+		37F73DF21CF9C2C100774621 /* ZCMineDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DF01CF9C2C100774621 /* ZCMineDataController.m */; };
+		37F73DF31CF9C2C100774621 /* ZCMineDataController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DF11CF9C2C100774621 /* ZCMineDataController.xib */; };
+		37F73DF71CF9C2EA00774621 /* ZCGameMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */; };
+		37F73DF81CF9C2EA00774621 /* ZCGameMoreController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */; };
+		B97E9520A96C524178E748DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E57A08B3E164CC03BD3590 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		120CE33CD51F37350D611D6C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3702C2D61CF3540A00D701E4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3702C2D71CF3540A00D701E4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3702C2D81CF3540A00D701E4 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,6 +80,8 @@
 		3702C2EB1CF3566C00D701E4 /* ZCMineController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMineController.m; sourceTree = "<group>"; };
 		3702C2ED1CF3567E00D701E4 /* ZCNoticeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNoticeController.h; sourceTree = "<group>"; };
 		3702C2EE1CF3567E00D701E4 /* ZCNoticeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCNoticeController.m; sourceTree = "<group>"; };
+		3765A1161CF5D53D00B77126 /* ZCHomeGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeGame.h; sourceTree = "<group>"; };
+		3765A1171CF5D53D00B77126 /* ZCHomeGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeGame.m; sourceTree = "<group>"; };
 		377BDC3C1CF0AC230087FC1F /* Wonderland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wonderland.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		377BDC4B1CF0AC230087FC1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		377BDC501CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +91,42 @@
 		377BDC601CF0AC230087FC1F /* WonderlandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WonderlandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		377BDC641CF0AC230087FC1F /* WonderlandUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WonderlandUITests.m; sourceTree = "<group>"; };
 		377BDC661CF0AC230087FC1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377C96BC1CF56C6000F617E0 /* ZCHomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeCell.h; sourceTree = "<group>"; };
+		377C96BD1CF56C6000F617E0 /* ZCHomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeCell.m; sourceTree = "<group>"; };
+		377C96BE1CF56C6000F617E0 /* ZCHomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCHomeCell.xib; sourceTree = "<group>"; };
+		377C96C41CF57D9F00F617E0 /* ZCHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeHeaderView.h; sourceTree = "<group>"; };
+		377C96C51CF57D9F00F617E0 /* ZCHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeHeaderView.m; sourceTree = "<group>"; };
+		377C96C71CF57DB100F617E0 /* ZCHomeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCHomeHeaderView.xib; sourceTree = "<group>"; };
+		377C96C91CF5885600F617E0 /* ZCHomeContent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHomeContent.h; sourceTree = "<group>"; };
+		377C96CA1CF5885600F617E0 /* ZCHomeContent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHomeContent.m; sourceTree = "<group>"; };
+		377C96CC1CF58A6A00F617E0 /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		37D83F341CF5F6C30095E556 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		37E0C99D1CF978D9009C3F61 /* ZCGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGameView.h; sourceTree = "<group>"; };
+		37E0C99E1CF978D9009C3F61 /* ZCGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGameView.m; sourceTree = "<group>"; };
+		37E0C9A01CF97901009C3F61 /* ZCGameView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGameView.xib; sourceTree = "<group>"; };
+		37E0C9AD1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+ZCExtension.h"; sourceTree = "<group>"; };
+		37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZCExtension.m"; sourceTree = "<group>"; };
+		37E0C9B01CF9A4A3009C3F61 /* UIView+ZCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCExtension.h"; sourceTree = "<group>"; };
+		37E0C9B11CF9A4A3009C3F61 /* UIView+ZCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCExtension.m"; sourceTree = "<group>"; };
+		37F73DDD1CF9AF4000774621 /* ZCLoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLoadGameController.h; sourceTree = "<group>"; };
+		37F73DDE1CF9AF4100774621 /* ZCLoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLoadGameController.m; sourceTree = "<group>"; };
+		37F73DDF1CF9AF4100774621 /* ZCLoadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCLoadGameController.xib; sourceTree = "<group>"; };
+		37F73DE21CF9B2D000774621 /* ZCStartGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCStartGameController.h; sourceTree = "<group>"; };
+		37F73DE31CF9B2D000774621 /* ZCStartGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCStartGameController.m; sourceTree = "<group>"; };
+		37F73DE51CF9C22F00774621 /* ZCGameEntranceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGameEntranceController.h; sourceTree = "<group>"; };
+		37F73DE61CF9C22F00774621 /* ZCGameEntranceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGameEntranceController.m; sourceTree = "<group>"; };
+		37F73DE71CF9C22F00774621 /* ZCGameEntranceController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGameEntranceController.xib; sourceTree = "<group>"; };
+		37F73DEA1CF9C29600774621 /* ZCGameDescriptionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGameDescriptionController.h; sourceTree = "<group>"; };
+		37F73DEB1CF9C29600774621 /* ZCGameDescriptionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGameDescriptionController.m; sourceTree = "<group>"; };
+		37F73DEC1CF9C29600774621 /* ZCGameDescriptionController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGameDescriptionController.xib; sourceTree = "<group>"; };
+		37F73DEF1CF9C2C100774621 /* ZCMineDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMineDataController.h; sourceTree = "<group>"; };
+		37F73DF01CF9C2C100774621 /* ZCMineDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMineDataController.m; sourceTree = "<group>"; };
+		37F73DF11CF9C2C100774621 /* ZCMineDataController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCMineDataController.xib; sourceTree = "<group>"; };
+		37F73DF41CF9C2EA00774621 /* ZCGameMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCGameMoreController.h; sourceTree = "<group>"; };
+		37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGameMoreController.m; sourceTree = "<group>"; };
+		37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGameMoreController.xib; sourceTree = "<group>"; };
+		3A826ADEDDA3BE1994E0870F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B2E57A08B3E164CC03BD3590 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B97E9520A96C524178E748DC /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +155,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0695A5B58B3134CD3DD42AB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B2E57A08B3E164CC03BD3590 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3702C2BC1CF3540A00D701E4 /* Class */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,6 +258,23 @@
 			children = (
 				3702C2E71CF3565A00D701E4 /* ZCHomeController.h */,
 				3702C2E81CF3565A00D701E4 /* ZCHomeController.m */,
+				37F73DDD1CF9AF4000774621 /* ZCLoadGameController.h */,
+				37F73DDE1CF9AF4100774621 /* ZCLoadGameController.m */,
+				37F73DDF1CF9AF4100774621 /* ZCLoadGameController.xib */,
+				37F73DE21CF9B2D000774621 /* ZCStartGameController.h */,
+				37F73DE31CF9B2D000774621 /* ZCStartGameController.m */,
+				37F73DE51CF9C22F00774621 /* ZCGameEntranceController.h */,
+				37F73DE61CF9C22F00774621 /* ZCGameEntranceController.m */,
+				37F73DE71CF9C22F00774621 /* ZCGameEntranceController.xib */,
+				37F73DEA1CF9C29600774621 /* ZCGameDescriptionController.h */,
+				37F73DEB1CF9C29600774621 /* ZCGameDescriptionController.m */,
+				37F73DEC1CF9C29600774621 /* ZCGameDescriptionController.xib */,
+				37F73DEF1CF9C2C100774621 /* ZCMineDataController.h */,
+				37F73DF01CF9C2C100774621 /* ZCMineDataController.m */,
+				37F73DF11CF9C2C100774621 /* ZCMineDataController.xib */,
+				37F73DF41CF9C2EA00774621 /* ZCGameMoreController.h */,
+				37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */,
+				37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -194,6 +282,10 @@
 		3702C2C71CF3540A00D701E4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				377C96C91CF5885600F617E0 /* ZCHomeContent.h */,
+				377C96CA1CF5885600F617E0 /* ZCHomeContent.m */,
+				3765A1161CF5D53D00B77126 /* ZCHomeGame.h */,
+				3765A1171CF5D53D00B77126 /* ZCHomeGame.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -201,6 +293,15 @@
 		3702C2C81CF3540A00D701E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				377C96BC1CF56C6000F617E0 /* ZCHomeCell.h */,
+				377C96BD1CF56C6000F617E0 /* ZCHomeCell.m */,
+				377C96BE1CF56C6000F617E0 /* ZCHomeCell.xib */,
+				377C96C41CF57D9F00F617E0 /* ZCHomeHeaderView.h */,
+				377C96C51CF57D9F00F617E0 /* ZCHomeHeaderView.m */,
+				377C96C71CF57DB100F617E0 /* ZCHomeHeaderView.xib */,
+				37E0C99D1CF978D9009C3F61 /* ZCGameView.h */,
+				37E0C99E1CF978D9009C3F61 /* ZCGameView.m */,
+				37E0C9A01CF97901009C3F61 /* ZCGameView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,6 +309,7 @@
 		3702C2C91CF3540A00D701E4 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				37E0C9AC1CF9A2FD009C3F61 /* Category */,
 				3702C2CA1CF3540A00D701E4 /* Controller */,
 				3702C2CB1CF3540A00D701E4 /* Model */,
 				3702C2CC1CF3540A00D701E4 /* View */,
@@ -323,6 +425,8 @@
 				377BDC581CF0AC230087FC1F /* WonderlandTests */,
 				377BDC631CF0AC230087FC1F /* WonderlandUITests */,
 				377BDC3D1CF0AC230087FC1F /* Products */,
+				A6B35A6E691C58C482F94715 /* Pods */,
+				0695A5B58B3134CD3DD42AB6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -350,6 +454,8 @@
 			children = (
 				377BDC4B1CF0AC230087FC1F /* Assets.xcassets */,
 				377BDC501CF0AC230087FC1F /* Info.plist */,
+				377C96CC1CF58A6A00F617E0 /* PropertyList.plist */,
+				37D83F341CF5F6C30095E556 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -372,6 +478,26 @@
 			path = WonderlandUITests;
 			sourceTree = "<group>";
 		};
+		37E0C9AC1CF9A2FD009C3F61 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				37E0C9B01CF9A4A3009C3F61 /* UIView+ZCExtension.h */,
+				37E0C9B11CF9A4A3009C3F61 /* UIView+ZCExtension.m */,
+				37E0C9AD1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.h */,
+				37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A6B35A6E691C58C482F94715 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				120CE33CD51F37350D611D6C /* Pods.debug.xcconfig */,
+				3A826ADEDDA3BE1994E0870F /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -379,9 +505,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 377BDC691CF0AC230087FC1F /* Build configuration list for PBXNativeTarget "Wonderland" */;
 			buildPhases = (
+				BE336AF1A6D56BD48E3A0E76 /* Check Pods Manifest.lock */,
 				377BDC381CF0AC230087FC1F /* Sources */,
 				377BDC391CF0AC230087FC1F /* Frameworks */,
 				377BDC3A1CF0AC230087FC1F /* Resources */,
+				E27707B9E012E5F02B0E5FED /* Embed Pods Frameworks */,
+				474F68E3531969C1D95F9857 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -476,7 +605,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F73DE11CF9AF4100774621 /* ZCLoadGameController.xib in Resources */,
 				377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */,
+				377C96C81CF57DB100F617E0 /* ZCHomeHeaderView.xib in Resources */,
+				37F73DE91CF9C22F00774621 /* ZCGameEntranceController.xib in Resources */,
+				377C96CD1CF58A6A00F617E0 /* PropertyList.plist in Resources */,
+				37F73DF81CF9C2EA00774621 /* ZCGameMoreController.xib in Resources */,
+				37F73DF31CF9C2C100774621 /* ZCMineDataController.xib in Resources */,
+				37E0C9A11CF97901009C3F61 /* ZCGameView.xib in Resources */,
+				377C96C01CF56C6000F617E0 /* ZCHomeCell.xib in Resources */,
+				37F73DEE1CF9C29600774621 /* ZCGameDescriptionController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,16 +634,77 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		474F68E3531969C1D95F9857 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE336AF1A6D56BD48E3A0E76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E27707B9E012E5F02B0E5FED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		377BDC381CF0AC230087FC1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37F73DE01CF9AF4100774621 /* ZCLoadGameController.m in Sources */,
+				37F73DE41CF9B2D000774621 /* ZCStartGameController.m in Sources */,
+				37F73DE81CF9C22F00774621 /* ZCGameEntranceController.m in Sources */,
 				3702C2E31CF3563C00D701E4 /* ZCDiscoverController.m in Sources */,
 				3702C2E91CF3565A00D701E4 /* ZCHomeController.m in Sources */,
 				3702C2E01CF3549C00D701E4 /* ZCNavigationController.m in Sources */,
+				377C96C61CF57D9F00F617E0 /* ZCHomeHeaderView.m in Sources */,
+				37F73DF71CF9C2EA00774621 /* ZCGameMoreController.m in Sources */,
+				3765A1181CF5D53D00B77126 /* ZCHomeGame.m in Sources */,
+				37F73DF21CF9C2C100774621 /* ZCMineDataController.m in Sources */,
+				377C96BF1CF56C6000F617E0 /* ZCHomeCell.m in Sources */,
 				3702C2E61CF3564E00D701E4 /* ZCForumController.m in Sources */,
+				37E0C99F1CF978D9009C3F61 /* ZCGameView.m in Sources */,
+				37F73DED1CF9C29600774621 /* ZCGameDescriptionController.m in Sources */,
 				3702C2DA1CF3540A00D701E4 /* main.m in Sources */,
+				37E0C9B21CF9A4A3009C3F61 /* UIView+ZCExtension.m in Sources */,
+				377C96CB1CF5885600F617E0 /* ZCHomeContent.m in Sources */,
+				37E0C9AF1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m in Sources */,
 				3702C2DD1CF3546900D701E4 /* ZCTabBarController.m in Sources */,
 				3702C2D91CF3540A00D701E4 /* AppDelegate.m in Sources */,
 				3702C2EF1CF3567E00D701E4 /* ZCNoticeController.m in Sources */,
@@ -627,25 +826,31 @@
 		};
 		377BDC6A1CF0AC230087FC1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 120CE33CD51F37350D611D6C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Wonderland/PrefixHeader.pch;
 				INFOPLIST_FILE = Wonderland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
 		};
 		377BDC6B1CF0AC230087FC1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A826ADEDDA3BE1994E0870F /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				GCC_PREFIX_HEADER = Wonderland/PrefixHeader.pch;
 				INFOPLIST_FILE = Wonderland/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;
 		};
