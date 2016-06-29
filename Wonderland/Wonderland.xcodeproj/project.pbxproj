@@ -30,6 +30,7 @@
 		37E0C9A11CF97901009C3F61 /* ZCGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37E0C9A01CF97901009C3F61 /* ZCGameView.xib */; };
 		37E0C9AF1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */; };
 		37E0C9B21CF9A4A3009C3F61 /* UIView+ZCExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 37E0C9B11CF9A4A3009C3F61 /* UIView+ZCExtension.m */; };
+		37EE582F1D237647003DEC25 /* ZCImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EE582E1D237647003DEC25 /* ZCImagePickerController.m */; };
 		37F73DE01CF9AF4100774621 /* ZCLoadGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DDE1CF9AF4100774621 /* ZCLoadGameController.m */; };
 		37F73DE11CF9AF4100774621 /* ZCLoadGameController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DDF1CF9AF4100774621 /* ZCLoadGameController.xib */; };
 		37F73DE41CF9B2D000774621 /* ZCStartGameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DE31CF9B2D000774621 /* ZCStartGameController.m */; };
@@ -108,6 +109,8 @@
 		37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+ZCExtension.m"; sourceTree = "<group>"; };
 		37E0C9B01CF9A4A3009C3F61 /* UIView+ZCExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZCExtension.h"; sourceTree = "<group>"; };
 		37E0C9B11CF9A4A3009C3F61 /* UIView+ZCExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZCExtension.m"; sourceTree = "<group>"; };
+		37EE582D1D237647003DEC25 /* ZCImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCImagePickerController.h; sourceTree = "<group>"; };
+		37EE582E1D237647003DEC25 /* ZCImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCImagePickerController.m; sourceTree = "<group>"; };
 		37F73DDD1CF9AF4000774621 /* ZCLoadGameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCLoadGameController.h; sourceTree = "<group>"; };
 		37F73DDE1CF9AF4100774621 /* ZCLoadGameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCLoadGameController.m; sourceTree = "<group>"; };
 		37F73DDF1CF9AF4100774621 /* ZCLoadGameController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCLoadGameController.xib; sourceTree = "<group>"; };
@@ -275,6 +278,8 @@
 				37F73DF41CF9C2EA00774621 /* ZCGameMoreController.h */,
 				37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */,
 				37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */,
+				37EE582D1D237647003DEC25 /* ZCImagePickerController.h */,
+				37EE582E1D237647003DEC25 /* ZCImagePickerController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -705,6 +710,7 @@
 				37E0C9B21CF9A4A3009C3F61 /* UIView+ZCExtension.m in Sources */,
 				377C96CB1CF5885600F617E0 /* ZCHomeContent.m in Sources */,
 				37E0C9AF1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m in Sources */,
+				37EE582F1D237647003DEC25 /* ZCImagePickerController.m in Sources */,
 				3702C2DD1CF3546900D701E4 /* ZCTabBarController.m in Sources */,
 				3702C2D91CF3540A00D701E4 /* AppDelegate.m in Sources */,
 				3702C2EF1CF3567E00D701E4 /* ZCNoticeController.m in Sources */,
@@ -835,6 +841,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
@@ -850,6 +857,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;

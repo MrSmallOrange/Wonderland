@@ -17,10 +17,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZL-9o-bKK">
-                    <rect key="frame" x="0.0" y="421" width="352" height="100"/>
+                    <rect key="frame" x="0.0" y="461" width="352" height="60"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.94546669409999995" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="100" id="Okl-hu-Erx"/>
+                        <constraint firstAttribute="height" constant="60" id="Okl-hu-Erx"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                     <state key="normal" title="开始游戏">

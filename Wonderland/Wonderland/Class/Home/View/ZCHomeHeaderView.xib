@@ -7,12 +7,27 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ZCHomeHeaderView">
             <rect key="frame" x="0.0" y="0.0" width="429" height="189"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="0.58298211349999995" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JV0-83-q0B">
+                    <rect key="frame" x="0.0" y="0.0" width="429" height="189"/>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="JV0-83-q0B" secondAttribute="trailing" id="Oas-it-fac"/>
+                <constraint firstAttribute="bottom" secondItem="JV0-83-q0B" secondAttribute="bottom" id="VXh-aO-a42"/>
+                <constraint firstItem="JV0-83-q0B" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="cax-Wx-HVd"/>
+                <constraint firstItem="JV0-83-q0B" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="nxy-tw-2fW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="292.5" y="157.5"/>
+            <connections>
+                <outlet property="scrollView" destination="JV0-83-q0B" id="XnW-7s-YNa"/>
+            </connections>
+            <point key="canvasLocation" x="379.5" y="157.5"/>
         </view>
     </objects>
 </document>
