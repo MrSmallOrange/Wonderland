@@ -42,6 +42,15 @@
 		37F73DF31CF9C2C100774621 /* ZCMineDataController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DF11CF9C2C100774621 /* ZCMineDataController.xib */; };
 		37F73DF71CF9C2EA00774621 /* ZCGameMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */; };
 		37F73DF81CF9C2EA00774621 /* ZCGameMoreController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */; };
+		A253CA4B1D24DFCB00309CEA /* 1.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA421D24DFCB00309CEA /* 1.svg */; };
+		A253CA4C1D24DFCB00309CEA /* 2.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA431D24DFCB00309CEA /* 2.svg */; };
+		A253CA4D1D24DFCB00309CEA /* 3.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA441D24DFCB00309CEA /* 3.svg */; };
+		A253CA4E1D24DFCB00309CEA /* 4.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA451D24DFCB00309CEA /* 4.svg */; };
+		A253CA4F1D24DFCB00309CEA /* 5.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA461D24DFCB00309CEA /* 5.svg */; };
+		A253CA501D24DFCB00309CEA /* 6.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA471D24DFCB00309CEA /* 6.svg */; };
+		A253CA511D24DFCB00309CEA /* 7.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA481D24DFCB00309CEA /* 7.svg */; };
+		A253CA521D24DFCB00309CEA /* 8.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA491D24DFCB00309CEA /* 8.svg */; };
+		A253CA531D24DFCB00309CEA /* 9.svg in Resources */ = {isa = PBXBuildFile; fileRef = A253CA4A1D24DFCB00309CEA /* 9.svg */; };
 		B97E9520A96C524178E748DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B2E57A08B3E164CC03BD3590 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -129,6 +138,15 @@
 		37F73DF51CF9C2EA00774621 /* ZCGameMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCGameMoreController.m; sourceTree = "<group>"; };
 		37F73DF61CF9C2EA00774621 /* ZCGameMoreController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZCGameMoreController.xib; sourceTree = "<group>"; };
 		3A826ADEDDA3BE1994E0870F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		A253CA421D24DFCB00309CEA /* 1.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 1.svg; sourceTree = "<group>"; };
+		A253CA431D24DFCB00309CEA /* 2.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 2.svg; sourceTree = "<group>"; };
+		A253CA441D24DFCB00309CEA /* 3.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.svg; sourceTree = "<group>"; };
+		A253CA451D24DFCB00309CEA /* 4.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 4.svg; sourceTree = "<group>"; };
+		A253CA461D24DFCB00309CEA /* 5.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 5.svg; sourceTree = "<group>"; };
+		A253CA471D24DFCB00309CEA /* 6.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 6.svg; sourceTree = "<group>"; };
+		A253CA481D24DFCB00309CEA /* 7.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 7.svg; sourceTree = "<group>"; };
+		A253CA491D24DFCB00309CEA /* 8.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 8.svg; sourceTree = "<group>"; };
+		A253CA4A1D24DFCB00309CEA /* 9.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 9.svg; sourceTree = "<group>"; };
 		B2E57A08B3E164CC03BD3590 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -458,6 +476,7 @@
 			isa = PBXGroup;
 			children = (
 				377BDC4B1CF0AC230087FC1F /* Assets.xcassets */,
+				A253CA411D24DFCA00309CEA /* 摄像头动画图片 */,
 				377BDC501CF0AC230087FC1F /* Info.plist */,
 				377C96CC1CF58A6A00F617E0 /* PropertyList.plist */,
 				37D83F341CF5F6C30095E556 /* PrefixHeader.pch */,
@@ -492,6 +511,22 @@
 				37E0C9AE1CF9A313009C3F61 /* UIBarButtonItem+ZCExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		A253CA411D24DFCA00309CEA /* 摄像头动画图片 */ = {
+			isa = PBXGroup;
+			children = (
+				A253CA421D24DFCB00309CEA /* 1.svg */,
+				A253CA431D24DFCB00309CEA /* 2.svg */,
+				A253CA441D24DFCB00309CEA /* 3.svg */,
+				A253CA451D24DFCB00309CEA /* 4.svg */,
+				A253CA461D24DFCB00309CEA /* 5.svg */,
+				A253CA471D24DFCB00309CEA /* 6.svg */,
+				A253CA481D24DFCB00309CEA /* 7.svg */,
+				A253CA491D24DFCB00309CEA /* 8.svg */,
+				A253CA4A1D24DFCB00309CEA /* 9.svg */,
+			);
+			path = "摄像头动画图片";
 			sourceTree = "<group>";
 		};
 		A6B35A6E691C58C482F94715 /* Pods */ = {
@@ -610,14 +645,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A253CA4F1D24DFCB00309CEA /* 5.svg in Resources */,
+				A253CA4B1D24DFCB00309CEA /* 1.svg in Resources */,
 				37F73DE11CF9AF4100774621 /* ZCLoadGameController.xib in Resources */,
+				A253CA521D24DFCB00309CEA /* 8.svg in Resources */,
 				377BDC4C1CF0AC230087FC1F /* Assets.xcassets in Resources */,
+				A253CA4D1D24DFCB00309CEA /* 3.svg in Resources */,
 				377C96C81CF57DB100F617E0 /* ZCHomeHeaderView.xib in Resources */,
 				37F73DE91CF9C22F00774621 /* ZCGameEntranceController.xib in Resources */,
 				377C96CD1CF58A6A00F617E0 /* PropertyList.plist in Resources */,
 				37F73DF81CF9C2EA00774621 /* ZCGameMoreController.xib in Resources */,
+				A253CA501D24DFCB00309CEA /* 6.svg in Resources */,
 				37F73DF31CF9C2C100774621 /* ZCMineDataController.xib in Resources */,
+				A253CA4E1D24DFCB00309CEA /* 4.svg in Resources */,
 				37E0C9A11CF97901009C3F61 /* ZCGameView.xib in Resources */,
+				A253CA511D24DFCB00309CEA /* 7.svg in Resources */,
+				A253CA531D24DFCB00309CEA /* 9.svg in Resources */,
+				A253CA4C1D24DFCB00309CEA /* 2.svg in Resources */,
 				377C96C01CF56C6000F617E0 /* ZCHomeCell.xib in Resources */,
 				37F73DEE1CF9C29600774621 /* ZCGameDescriptionController.xib in Resources */,
 			);
@@ -841,7 +885,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Debug;
@@ -857,7 +901,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZhangCheng.Wonderland;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/**";
 			};
 			name = Release;

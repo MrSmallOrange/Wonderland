@@ -20,6 +20,18 @@
     
     UIPanGestureRecognizer *pan = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(pan:)];
     [self.view addGestureRecognizer:pan];
+    
+    UIImageView *animationImage = [[UIImageView alloc] init];
+    animationImage.frame = CGRectMake(90, 500, 300, 200);
+    [self.view addSubview:animationImage];
+    
+    
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"svg"];
+    NSData *data = [NSData dataWithContentsOfFile:filePath];
+    
+    UIImage *image = [UIImage imageWithData:data];
+    animationImage.image = image;
+    
 
 }
 
@@ -29,39 +41,7 @@
 
 - (void)pan:(UIPanGestureRecognizer *)panGesture
 {
-    CGPoint offset = [panGesture locationInView:self.view];
-    
-    CGRect frame = self.view.frame;
-    frame.origin.x += offset.x;
-    
-    
-    if (self.view.frame.origin.x <= 0 && offset.x >= 0) {
-        
-    }else{
-        [panGesture setTranslation:CGPointZero inView:self.view];
-        self.view.frame = frame;
-    }
-    
-    
-    if (panGesture.state ==UIGestureRecognizerStateEnded) {
-        
-        CGFloat offsetX = self.view.origin.x;
-        
-        if ( offsetX >= 0 && offsetX < self.view.size.width * 0.5) {
-            [UIView animateWithDuration:0.5 animations:^{
-                CGRect frame = self.view.frame;
-                frame.origin.x = 0;
-                self.view.frame = frame;
-            }];
-        }else if( offsetX >= 0 && offsetX >= self.view.size.width* 0.5){
-            [UIView animateWithDuration:0.5 animations:^{
-                CGRect frame = self.view.frame;
-                frame.origin.x = -frame.size.width;
-                self.view.frame = frame;
-            }];
-        }
-    }
-    
+
     
     if (self.block) {
         self.block(self.view.frame);
